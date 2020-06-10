@@ -1,4 +1,4 @@
 SERVICE_NAME=jenkins_project
-echo $NAMEPARAM > /tmp/paramfile
+echo $SERVICE_NAME > /tmp/paramfile
 cat /tmp/paramfile
 echo "Hello, Omar!"
