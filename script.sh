@@ -1,4 +1,3 @@
-NAMES=(Omar Raghdan)
-NAMEPARAM="name=${NAMES[0]}"
+NAMEPARAM=jenkins_project
 echo $NAMEPARAM > /tmp/paramfile
 cat /tmp/paramfile
