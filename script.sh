@@ -1,3 +1,2 @@
-NAMEPARAM=jenkins_project
-echo $NAMEPARAM > /tmp/paramfile
-cat /tmp/paramfile
+SERVICE_NAME=jenkins_project
+echo $SERVICE_NAME > /tmp/paramfile
